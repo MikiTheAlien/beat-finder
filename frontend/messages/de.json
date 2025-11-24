@@ -1,0 +1,126 @@
+{
+  "Hero": {
+    "title": "Beat Finder von UNDRSTND",
+    "subtitle": "Verwandle dein Audio in präzise Videobearbeitungs-Marker. Lade deine Audiodatei hoch und erhalte XML-Marker für Final Cut Pro, Premiere Pro und DaVinci Resolve."
+  },
+  "Features": {
+    "title": "Funktionen",
+    "beatDrops": {
+      "title": "Beat-Drop-Erkennung",
+      "description": "Erkenne automatisch Beat-Drops und Energieänderungen in deinem Audio"
+    },
+    "buildUps": {
+      "title": "Build-Up-Erkennung",
+      "description": "Identifiziere Build-Ups und Übergänge für nahtlose Videobearbeitung"
+    },
+    "bpmMarkers": {
+      "title": "BPM-Marker",
+      "description": "Erhalte BPM-Marker durch deinen Track für präzises Timing"
+    },
+    "songBoundaries": {
+      "title": "Song-Grenzen",
+      "description": "Erkenne automatisch Song-Anfänge und -Enden"
+    },
+    "multiPlatform": {
+      "title": "Multi-Plattform-Unterstützung",
+      "description": "Exportiere für Final Cut Pro, Premiere Pro und DaVinci Resolve im FCP7 XML-Format"
+    }
+  },
+  "Instructions": {
+    "title": "So exportierst du Audio aus deinem Videoeditor",
+    "finalCutPro": {
+      "step1": "Wähle dein Videoprojekt in Final Cut Pro aus",
+      "step2": "Gehe zu Datei > Teilen > Master-Datei",
+      "step3": "Wähle in den Einstellungen das Format 'Nur Audio'",
+      "step4": "Exportiere als WAV-, AIFF- oder MP3-Format",
+      "step5": "Lade die exportierte Audiodatei unten hoch"
+    },
+    "premierePro": {
+      "step1": "Wähle dein Videoprojekt in Premiere Pro aus",
+      "step2": "Gehe zu Datei > Exportieren > Medien (Cmd/Ctrl + M)",
+    "step3": "Wähle in den Exporteinstellungen das Format 'Nur Audio'",
+      "step4": "Wähle WAV-, AIFF- oder MP3-Format und exportiere",
+      "step5": "Lade die exportierte Audiodatei unten hoch"
+    },
+    "davinciResolve": {
+      "step1": "Wähle dein Videoprojekt in DaVinci Resolve aus",
+      "step2": "Gehe zur Deliver-Seite und wähle deine Timeline",
+      "step3": "Setze das Format auf 'Audio' und wähle einen Audio-Codec",
+    "step4": "Exportiere als WAV-, AIFF- oder MP3-Format",
+    "step5": "Lade die exportierte Audiodatei unten hoch"
+    }
+  },
+  "Upload": {
+    "title": "Lade deine Audiodatei hoch",
+    "dragDrop": "Ziehe deine Audiodatei hierher",
+    "or": "oder",
+    "browse": "Dateien durchsuchen",
+    "maxSize": "Maximale Dateigröße: 1GB",
+    "formats": "Unterstützte Formate: WAV, MP3, AIFF, M4A, FLAC",
+    "selected": "Ausgewählte Datei:",
+    "remove": "Entfernen",
+    "compressing": "Komprimiere Audiodatei...",
+    "compressionComplete": "Komprimierung abgeschlossen"
+  },
+  "Markers": {
+    "title": "Marker auswählen",
+    "beatDrop": "Beat Drop",
+    "beatBuildUp": "Beat Build-Up",
+    "bpm": "BPM-Marker",
+    "songBeginning": "Song Anfang/Ende",
+    "silence": "Stille-Erkennung"
+  },
+  "Processing": {
+    "title": "Verarbeite dein Audio",
+    "status": "Analysiere Audiodatei...",
+    "pleaseWait": "Bitte warten, dies kann einen Moment dauern."
+  },
+  "Email": {
+    "title": "Gib deine E-Mail ein",
+    "description": "Wir senden dir einen Bestätigungscode zum Herunterladen deiner Marker",
+    "emailPlaceholder": "deine.email@beispiel.de",
+    "sendCode": "Bestätigungscode senden",
+    "codePlaceholder": "6-stelliger Code eingeben",
+    "verify": "Bestätigen",
+    "verified": "E-Mail bestätigt!",
+    "download": "XML-Datei herunterladen"
+  },
+  "Common": {
+    "upload": "Hochladen",
+    "process": "Verarbeiten",
+    "download": "Herunterladen",
+    "cancel": "Abbrechen",
+    "error": "Fehler",
+    "success": "Erfolg"
+  },
+  "PlatformSelector": {
+    "title": "Wähle deine Plattform",
+    "description": "Wähle eine oder mehrere Videobearbeitungsplattformen aus, für die du Marker herunterladen möchtest",
+    "finalCutPro": "Final Cut Pro",
+    "finalCutProDesc": "Marker in Final Cut Pro importieren",
+    "premierePro": "Premiere Pro",
+    "premiereProDesc": "Marker in Adobe Premiere Pro importieren",
+    "davinciResolve": "DaVinci Resolve",
+    "davinciResolveDesc": "Marker in DaVinci Resolve importieren",
+    "download": "Herunterladen",
+    "downloadZip": "ZIP herunterladen ({count} Dateien)",
+    "cancel": "Abbrechen"
+  },
+  "BetaSignup": {
+    "title": "Nimm an der Beta teil",
+    "description": "Sei der Erste, der erfährt, wenn Beat Finder startet. Gib deine E-Mail ein, um frühzeitigen Zugang zu erhalten.",
+    "emailPlaceholder": "deine.email@beispiel.de",
+    "emailRequired": "Bitte gib deine E-Mail-Adresse ein",
+    "invalidEmail": "Bitte gib eine gültige E-Mail-Adresse ein",
+    "submit": "Anmelden",
+    "submitting": "Wird angemeldet...",
+    "signupFailed": "Anmeldung fehlgeschlagen. Bitte versuche es später erneut.",
+    "successTitle": "Vielen Dank!",
+    "successMessage": "Wir benachrichtigen dich, wenn wir starten. Bleib dran!"
+  },
+  "Footer": {
+    "madeWith": "Mit ❤️ in 🇨🇭 gemacht",
+    "beingDeveloped": "Wird mit ❤️ in 🇨🇭 entwickelt"
+  }
+}
+

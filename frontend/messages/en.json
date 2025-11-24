@@ -1,0 +1,126 @@
+{
+  "Hero": {
+    "title": "Beat Finder by UNDRSTND",
+    "subtitle": "Transform your audio into precise video editing markers. Upload your audio file and get XML markers for Final Cut Pro, Premiere Pro, and DaVinci Resolve."
+  },
+  "Features": {
+    "title": "Features",
+    "beatDrops": {
+      "title": "Beat Drop Detection",
+      "description": "Automatically detect beat drops and energy changes in your audio"
+    },
+    "buildUps": {
+      "title": "Build-Up Detection",
+      "description": "Identify build-ups and transitions for seamless video editing"
+    },
+    "bpmMarkers": {
+      "title": "BPM Markers",
+      "description": "Get BPM markers throughout your track for precise timing"
+    },
+    "songBoundaries": {
+      "title": "Song Boundaries",
+      "description": "Detect song beginnings and endings automatically"
+    },
+    "multiPlatform": {
+      "title": "Multi-Platform Support",
+      "description": "Export to Final Cut Pro, Premiere Pro, and DaVinci Resolve with FCP7 XML format"
+    }
+  },
+  "Instructions": {
+    "title": "How to Export Audio from Your Video Editor",
+    "finalCutPro": {
+      "step1": "Select your video project in Final Cut Pro",
+      "step2": "Go to File > Share > Master File",
+      "step3": "In the settings, choose 'Audio Only' format",
+    "step4": "Export as WAV, AIFF, or MP3 format",
+    "step5": "Upload the exported audio file below"
+    },
+    "premierePro": {
+      "step1": "Select your video project in Premiere Pro",
+      "step2": "Go to File > Export > Media (Cmd/Ctrl + M)",
+      "step3": "In export settings, set Format to 'Audio Only'",
+      "step4": "Choose WAV, AIFF, or MP3 format and export",
+      "step5": "Upload the exported audio file below"
+    },
+    "davinciResolve": {
+      "step1": "Select your video project in DaVinci Resolve",
+      "step2": "Go to Deliver page and select your timeline",
+      "step3": "Set Format to 'Audio' and choose audio codec",
+      "step4": "Export as WAV, AIFF, or MP3 format",
+      "step5": "Upload the exported audio file below"
+    }
+  },
+  "Upload": {
+    "title": "Upload Your Audio File",
+    "dragDrop": "Drag and drop your audio file here",
+    "or": "or",
+    "browse": "Browse Files",
+    "maxSize": "Maximum file size: 1GB",
+    "formats": "Supported formats: WAV, MP3, AIFF, M4A, FLAC",
+    "selected": "Selected file:",
+    "remove": "Remove",
+    "compressing": "Compressing audio file...",
+    "compressionComplete": "Compression complete"
+  },
+  "Markers": {
+    "title": "Select Markers",
+    "beatDrop": "Beat Drop",
+    "beatBuildUp": "Beat Build-Up",
+    "bpm": "BPM Markers",
+    "songBeginning": "Song Beginning/End",
+    "silence": "Silence Detection"
+  },
+  "Processing": {
+    "title": "Processing Your Audio",
+    "status": "Analyzing audio file...",
+    "pleaseWait": "Please wait, this may take a few moments."
+  },
+  "Email": {
+    "title": "Enter Your Email",
+    "description": "We'll send you a verification code to download your markers",
+    "emailPlaceholder": "your.email@example.com",
+    "sendCode": "Send Verification Code",
+    "codePlaceholder": "Enter 6-digit code",
+    "verify": "Verify",
+    "verified": "Email verified!",
+    "download": "Download XML File"
+  },
+  "Common": {
+    "upload": "Upload",
+    "process": "Process",
+    "download": "Download",
+    "cancel": "Cancel",
+    "error": "Error",
+    "success": "Success"
+  },
+  "PlatformSelector": {
+    "title": "Select Your Platform",
+    "description": "Choose one or more video editing platforms to download markers for",
+    "finalCutPro": "Final Cut Pro",
+    "finalCutProDesc": "Import markers into Final Cut Pro",
+    "premierePro": "Premiere Pro",
+    "premiereProDesc": "Import markers into Adobe Premiere Pro",
+    "davinciResolve": "DaVinci Resolve",
+    "davinciResolveDesc": "Import markers into DaVinci Resolve",
+    "download": "Download",
+    "downloadZip": "Download ZIP ({count} files)",
+    "cancel": "Cancel"
+  },
+  "BetaSignup": {
+    "title": "Join the Beta",
+    "description": "Be the first to know when Beat Finder launches. Enter your email to get early access.",
+    "emailPlaceholder": "your.email@example.com",
+    "emailRequired": "Please enter your email address",
+    "invalidEmail": "Please enter a valid email address",
+    "submit": "Sign Up",
+    "submitting": "Signing up...",
+    "signupFailed": "Failed to sign up. Please try again later.",
+    "successTitle": "Thank You!",
+    "successMessage": "We'll notify you when we launch. Stay tuned!"
+  },
+  "Footer": {
+    "madeWith": "Made with ❤️ in 🇨🇭",
+    "beingDeveloped": "Being developed with ❤️ in 🇨🇭"
+  }
+}
+
