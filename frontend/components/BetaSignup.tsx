@@ -3,7 +3,7 @@
 import {useTranslations} from 'next-intl';
 import {useState} from 'react';
 import axios from 'axios';
-import {buildApiUrl} from '@/utils/api';
+import {buildApiUrl, getApiHeaders} from '@/utils/api';
 
 export default function BetaSignup() {
   const t = useTranslations('BetaSignup');
@@ -31,9 +31,11 @@ export default function BetaSignup() {
     setError(null);
 
     try {
-      const response = await axios.post(buildApiUrl('/beta-signup'), {
-        email,
-      });
+      const response = await axios.post(
+        buildApiUrl('/beta-signup'),
+        { email },
+        { headers: getApiHeaders() }
+      );
 
       if (response.data.success) {
         setSuccess(true);

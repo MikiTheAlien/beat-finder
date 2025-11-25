@@ -19,6 +19,30 @@ export function getApiUrl(): string {
 }
 
 /**
+ * Get the API token from environment variable
+ * In Next.js, NEXT_PUBLIC_* variables are embedded at build time
+ */
+export function getApiToken(): string | null {
+  return process.env.NEXT_PUBLIC_API_TOKEN || null;
+}
+
+/**
+ * Get default headers for API requests including Authorization
+ */
+export function getApiHeaders(): Record<string, string> {
+  const headers: Record<string, string> = {
+    'Content-Type': 'application/json',
+  };
+  
+  const token = getApiToken();
+  if (token) {
+    headers['Authorization'] = `Bearer ${token}`;
+  }
+  
+  return headers;
+}
+
+/**
  * Build a full API endpoint URL
  * Always uses /api/v1 prefix (backend uses /api/v1 for all routes)
  */

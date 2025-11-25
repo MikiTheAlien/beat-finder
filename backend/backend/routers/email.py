@@ -1,4 +1,4 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, Depends
 import time
 import logging
 import traceback
@@ -6,6 +6,7 @@ import traceback
 from backend.models.requests import BetaSignupRequest
 from backend.models.responses import BetaSignupResponse
 from backend.services.lead_collector import LeadCollector
+from backend.utils.auth import verify_api_token
 
 logger = logging.getLogger(__name__)
 
@@ -15,7 +16,10 @@ lead_collector = LeadCollector()
 
 
 @router.post("/beta-signup", response_model=BetaSignupResponse)
-async def beta_signup(request: BetaSignupRequest):
+async def beta_signup(
+    request: BetaSignupRequest,
+    token_payload: dict = Depends(verify_api_token)
+):
     """Collect email for beta signup and store in HubSpot"""
     
     try:

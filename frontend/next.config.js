@@ -11,6 +11,7 @@ const nextConfig = {
   output: 'standalone',
   env: {
     _next_intl_trailing_slash: 'false',
+    NEXT_PUBLIC_API_TOKEN: process.env.NEXT_PUBLIC_API_TOKEN,
   },
 };
 

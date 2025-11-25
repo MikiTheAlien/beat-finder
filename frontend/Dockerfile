@@ -24,6 +24,17 @@ COPY . .
 # Uncomment the following line in case you want to disable telemetry during the build.
 ENV NEXT_TELEMETRY_DISABLED=1
 
+# Railway automatically makes environment variables available during build
+# These ARG declarations allow Railway to pass env vars to the build
+ARG NEXT_PUBLIC_API_URL
+ARG NEXT_PUBLIC_API_TOKEN
+ARG NEXT_PUBLIC_BETA
+
+# Set as ENV so they're available during npm run build
+ENV NEXT_PUBLIC_API_URL=$NEXT_PUBLIC_API_URL
+ENV NEXT_PUBLIC_API_TOKEN=$NEXT_PUBLIC_API_TOKEN
+ENV NEXT_PUBLIC_BETA=$NEXT_PUBLIC_BETA
+
 RUN npm run build
 
 # Production image, copy all the files and run next
